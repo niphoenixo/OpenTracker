@@ -1,11 +1,10 @@
-# Open Tracker
+# Project Name - Open Tracker
 
 **Project Requirement**
 https://media-net.github.io/recruitment-open-tracker/
 
 
-**Project Solution **
-
+**Project Solution**
 
 ## Solution 1 :  Simple Code by using PHP, Mysql
 
