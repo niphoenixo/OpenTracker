@@ -8,8 +8,7 @@ https://media-net.github.io/recruitment-open-tracker/
 
 ## Solution 1 : With Laravel/Lumen, Mysql
 
-The source code is already present. They have aready achive some benchmark.
-But what we can do,  we can enhance this application as per our need;
+The source code is already present. David bakr & team have aready achive some benchmark.
 
 **summary of Source code**
 
@@ -22,7 +21,7 @@ But what we can do,  we can enhance this application as per our need;
   - composer require jdavidbakr/mail-tracker ~2.1
 
 
-**Additional code can add at**
+**We can add Additional code at**
   - jdavidbakr\MailTracker\Events\EmailSentEvent
   - jdavidbakr\MailTracker\Events\ViewEmailEvent
   - jdavidbakr\MailTracker\Events\LinkClickedEvent
@@ -36,7 +35,6 @@ But what we can do,  we can enhance this application as per our need;
 
 ## Solution 2 :  Simple Code by using PHP, Mysql
 
-
 **How To Run**
  -  Below url need to run manualy 
  
@@ -46,8 +44,6 @@ But what we can do,  we can enhance this application as per our need;
  
  http://Your-website/Open_tracker/trackonline.php?src=email&subscriberID=nisha.sonawane@gmail.com&campaignID=6788
  
-
-
 
 ## Functional Files 
 
