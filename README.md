@@ -87,7 +87,7 @@ The source code is already present. David bakr & team have aready achive some be
    );
 
 
-**To avoid duplicate entry from Table**
+**To avoid duplicate entry from Table `EmailTracker`**
 
   - You can write cron job/script & it can schedule as per your need & script should contain below Delete Query.
   
