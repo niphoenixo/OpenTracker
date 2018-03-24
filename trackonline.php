@@ -6,14 +6,9 @@
 
     // in this case it's the email campaign they've opened...
     $campaignID = intval($_GET['campaignID']);
-    // and the subscription ID - you saved that from your
-    // double opt-in registration, right?
     $subscriptionID = $_GET['subscriberID'];
-    // load the Database abstractor
     require_once('dbconfig.php');
     require_once('classes/EmailTracker.php');
-    // someone accessed this script by opening an email
-    // and displaying images.  Let's store that knowledge
     $EmailCampaign = new EmailTracker($campaignID, $settings['mysql']);
     $EmailCampaign->openedBy($subscriptionID, date('Y-m-d H:i:s'));
     // load the image
@@ -27,5 +22,3 @@
     echo file_get_contents($image);
     
 ?>
-
-
