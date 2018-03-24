@@ -70,8 +70,6 @@ The source code is already present. David bakr & team have aready achive some be
 
   - 1) PHPMailer/PHPMailer.php
   - 2) images/phpmailer.png
-  - 3) css/style.css
-  - 4) js/myjs.js
 
 
 
