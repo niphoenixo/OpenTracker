@@ -47,7 +47,7 @@ The source code is already present. David bakr & team have aready achive some be
 
 ## Functional Files 
 
-**Tech Stack **
+**Tech Stack**
  - PHP, Mysql
 
 
