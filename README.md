@@ -1,7 +1,7 @@
 # Open Tracker
 
 **Project Requirement**<br/>
-https://media-net.github.io/recruitment-open-tracker/
+An API client, say an email campaign management application, uses the open tracker service to generate open trackers. These trackers are embedded into emails that are then sent via the campaign management application. When a client views the email, this will trigger a call to your API server (assume this is the case, at the moment we are not solving for email clients that block images / email clients that anonymize source IPs etc). Your API server must record all possible information and return a GIF or redirect as soon as possible.
 
 
 **Project Solution**
